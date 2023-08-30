@@ -13,7 +13,7 @@ class AppProjectStack(Stack):
         # The code that defines your stack goes here
 
         # example resource
-        # queue = sqs.Queue(
-        #     self, "AppProjectQueue",
-        #     visibility_timeout=Duration.seconds(300),
-        # )
+        queue = sqs.Queue(
+            self, "AppProjectQueue",
+            visibility_timeout=Duration.seconds(300),
+        )
