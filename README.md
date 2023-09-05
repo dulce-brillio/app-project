@@ -111,3 +111,4 @@ npx cdk destroy
  * `cdk diff`        compare deployed stack with current state
  * `cdk docs`        open CDK documentation
 
+You can see more examples on different aws resources using aws cdk with different programming languages [here](https://github.com/aws-samples/aws-cdk-examples/tree/master).
